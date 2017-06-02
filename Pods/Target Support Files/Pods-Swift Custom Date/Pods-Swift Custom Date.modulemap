@@ -1,0 +1,6 @@
+framework module Pods_Swift_Custom_Date {
+  umbrella header "Pods-Swift Custom Date-umbrella.h"
+
+  export *
+  module * { export * }
+}

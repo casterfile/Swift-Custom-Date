@@ -1,0 +1,735 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5DA9377E7BF3C56F9F7895E9 /* Pods_Swift_Custom_DateUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 311E514A10D57428468638CD /* Pods_Swift_Custom_DateUITests.framework */; };
+		89E1342D65614F31C2F06786 /* Pods_Swift_Custom_DateTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E61699601270B4D7E9057E63 /* Pods_Swift_Custom_DateTests.framework */; };
+		B38B17BD5E7D6C19D17CC4EA /* Pods_Swift_Custom_Date.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5207B22AB9C2A657DC418160 /* Pods_Swift_Custom_Date.framework */; };
+		F4BE983F1EDFECEC003919A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BE983E1EDFECEC003919A9 /* AppDelegate.swift */; };
+		F4BE98411EDFECEC003919A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BE98401EDFECEC003919A9 /* ViewController.swift */; };
+		F4BE98441EDFECEC003919A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4BE98421EDFECEC003919A9 /* Main.storyboard */; };
+		F4BE98461EDFECEC003919A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4BE98451EDFECEC003919A9 /* Assets.xcassets */; };
+		F4BE98491EDFECEC003919A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4BE98471EDFECEC003919A9 /* LaunchScreen.storyboard */; };
+		F4BE98541EDFECEC003919A9 /* Swift_Custom_DateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BE98531EDFECEC003919A9 /* Swift_Custom_DateTests.swift */; };
+		F4BE985F1EDFECEC003919A9 /* Swift_Custom_DateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4BE985E1EDFECEC003919A9 /* Swift_Custom_DateUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4BE98501EDFECEC003919A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4BE98331EDFECEC003919A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4BE983A1EDFECEC003919A9;
+			remoteInfo = "Swift Custom Date";
+		};
+		F4BE985B1EDFECEC003919A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4BE98331EDFECEC003919A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4BE983A1EDFECEC003919A9;
+			remoteInfo = "Swift Custom Date";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03F269F0ADF6514E48416E55 /* Pods-Swift Custom DateUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift Custom DateUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Swift Custom DateUITests/Pods-Swift Custom DateUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		167693591373EDCF581B8FFC /* Pods-Swift Custom Date.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift Custom Date.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Swift Custom Date/Pods-Swift Custom Date.debug.xcconfig"; sourceTree = "<group>"; };
+		311E514A10D57428468638CD /* Pods_Swift_Custom_DateUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swift_Custom_DateUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5207B22AB9C2A657DC418160 /* Pods_Swift_Custom_Date.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swift_Custom_Date.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DF58B8D851CE425A480F410 /* Pods-Swift Custom DateUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift Custom DateUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Swift Custom DateUITests/Pods-Swift Custom DateUITests.release.xcconfig"; sourceTree = "<group>"; };
+		95F1833E04A3B9C515C92BF8 /* Pods-Swift Custom Date.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift Custom Date.release.xcconfig"; path = "Pods/Target Support Files/Pods-Swift Custom Date/Pods-Swift Custom Date.release.xcconfig"; sourceTree = "<group>"; };
+		CB353D7B02F36F669352A060 /* Pods-Swift Custom DateTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift Custom DateTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Swift Custom DateTests/Pods-Swift Custom DateTests.release.xcconfig"; sourceTree = "<group>"; };
+		DE9DC320E1BF2BB87E06E54F /* Pods-Swift Custom DateTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift Custom DateTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Swift Custom DateTests/Pods-Swift Custom DateTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E61699601270B4D7E9057E63 /* Pods_Swift_Custom_DateTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swift_Custom_DateTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4BE983B1EDFECEC003919A9 /* Swift Custom Date.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift Custom Date.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4BE983E1EDFECEC003919A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4BE98401EDFECEC003919A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F4BE98431EDFECEC003919A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4BE98451EDFECEC003919A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4BE98481EDFECEC003919A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4BE984A1EDFECEC003919A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4BE984F1EDFECEC003919A9 /* Swift Custom DateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift Custom DateTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4BE98531EDFECEC003919A9 /* Swift_Custom_DateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_Custom_DateTests.swift; sourceTree = "<group>"; };
+		F4BE98551EDFECEC003919A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4BE985A1EDFECEC003919A9 /* Swift Custom DateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift Custom DateUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4BE985E1EDFECEC003919A9 /* Swift_Custom_DateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_Custom_DateUITests.swift; sourceTree = "<group>"; };
+		F4BE98601EDFECEC003919A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4BE98381EDFECEC003919A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B38B17BD5E7D6C19D17CC4EA /* Pods_Swift_Custom_Date.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4BE984C1EDFECEC003919A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89E1342D65614F31C2F06786 /* Pods_Swift_Custom_DateTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4BE98571EDFECEC003919A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DA9377E7BF3C56F9F7895E9 /* Pods_Swift_Custom_DateUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23462EAD800436CE6C833A51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5207B22AB9C2A657DC418160 /* Pods_Swift_Custom_Date.framework */,
+				E61699601270B4D7E9057E63 /* Pods_Swift_Custom_DateTests.framework */,
+				311E514A10D57428468638CD /* Pods_Swift_Custom_DateUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B196D83365F59CDE84ACF5B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				167693591373EDCF581B8FFC /* Pods-Swift Custom Date.debug.xcconfig */,
+				95F1833E04A3B9C515C92BF8 /* Pods-Swift Custom Date.release.xcconfig */,
+				DE9DC320E1BF2BB87E06E54F /* Pods-Swift Custom DateTests.debug.xcconfig */,
+				CB353D7B02F36F669352A060 /* Pods-Swift Custom DateTests.release.xcconfig */,
+				03F269F0ADF6514E48416E55 /* Pods-Swift Custom DateUITests.debug.xcconfig */,
+				8DF58B8D851CE425A480F410 /* Pods-Swift Custom DateUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F4BE98321EDFECEC003919A9 = {
+			isa = PBXGroup;
+			children = (
+				F4BE983D1EDFECEC003919A9 /* Swift Custom Date */,
+				F4BE98521EDFECEC003919A9 /* Swift Custom DateTests */,
+				F4BE985D1EDFECEC003919A9 /* Swift Custom DateUITests */,
+				F4BE983C1EDFECEC003919A9 /* Products */,
+				9B196D83365F59CDE84ACF5B /* Pods */,
+				23462EAD800436CE6C833A51 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F4BE983C1EDFECEC003919A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4BE983B1EDFECEC003919A9 /* Swift Custom Date.app */,
+				F4BE984F1EDFECEC003919A9 /* Swift Custom DateTests.xctest */,
+				F4BE985A1EDFECEC003919A9 /* Swift Custom DateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4BE983D1EDFECEC003919A9 /* Swift Custom Date */ = {
+			isa = PBXGroup;
+			children = (
+				F4BE983E1EDFECEC003919A9 /* AppDelegate.swift */,
+				F4BE98401EDFECEC003919A9 /* ViewController.swift */,
+				F4BE98421EDFECEC003919A9 /* Main.storyboard */,
+				F4BE98451EDFECEC003919A9 /* Assets.xcassets */,
+				F4BE98471EDFECEC003919A9 /* LaunchScreen.storyboard */,
+				F4BE984A1EDFECEC003919A9 /* Info.plist */,
+			);
+			path = "Swift Custom Date";
+			sourceTree = "<group>";
+		};
+		F4BE98521EDFECEC003919A9 /* Swift Custom DateTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4BE98531EDFECEC003919A9 /* Swift_Custom_DateTests.swift */,
+				F4BE98551EDFECEC003919A9 /* Info.plist */,
+			);
+			path = "Swift Custom DateTests";
+			sourceTree = "<group>";
+		};
+		F4BE985D1EDFECEC003919A9 /* Swift Custom DateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F4BE985E1EDFECEC003919A9 /* Swift_Custom_DateUITests.swift */,
+				F4BE98601EDFECEC003919A9 /* Info.plist */,
+			);
+			path = "Swift Custom DateUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4BE983A1EDFECEC003919A9 /* Swift Custom Date */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4BE98631EDFECEC003919A9 /* Build configuration list for PBXNativeTarget "Swift Custom Date" */;
+			buildPhases = (
+				AEBE553465834CA5D505DACD /* [CP] Check Pods Manifest.lock */,
+				F4BE98371EDFECEC003919A9 /* Sources */,
+				F4BE98381EDFECEC003919A9 /* Frameworks */,
+				F4BE98391EDFECEC003919A9 /* Resources */,
+				8D53C684E2855626EAF261B9 /* [CP] Embed Pods Frameworks */,
+				4700657664499567EF7E6095 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swift Custom Date";
+			productName = "Swift Custom Date";
+			productReference = F4BE983B1EDFECEC003919A9 /* Swift Custom Date.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4BE984E1EDFECEC003919A9 /* Swift Custom DateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4BE98661EDFECEC003919A9 /* Build configuration list for PBXNativeTarget "Swift Custom DateTests" */;
+			buildPhases = (
+				2ED5FA2061A507ABC716FE35 /* [CP] Check Pods Manifest.lock */,
+				F4BE984B1EDFECEC003919A9 /* Sources */,
+				F4BE984C1EDFECEC003919A9 /* Frameworks */,
+				F4BE984D1EDFECEC003919A9 /* Resources */,
+				2913C558E111495E16C2BA99 /* [CP] Embed Pods Frameworks */,
+				2EEA960596C2C21B863349FE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4BE98511EDFECEC003919A9 /* PBXTargetDependency */,
+			);
+			name = "Swift Custom DateTests";
+			productName = "Swift Custom DateTests";
+			productReference = F4BE984F1EDFECEC003919A9 /* Swift Custom DateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F4BE98591EDFECEC003919A9 /* Swift Custom DateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4BE98691EDFECEC003919A9 /* Build configuration list for PBXNativeTarget "Swift Custom DateUITests" */;
+			buildPhases = (
+				8D29B9ABFED7B2F47E71AA5C /* [CP] Check Pods Manifest.lock */,
+				F4BE98561EDFECEC003919A9 /* Sources */,
+				F4BE98571EDFECEC003919A9 /* Frameworks */,
+				F4BE98581EDFECEC003919A9 /* Resources */,
+				D2FC9923136373EF7DC96F9D /* [CP] Embed Pods Frameworks */,
+				3560F6707C2B041CB3DA642C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4BE985C1EDFECEC003919A9 /* PBXTargetDependency */,
+			);
+			name = "Swift Custom DateUITests";
+			productName = "Swift Custom DateUITests";
+			productReference = F4BE985A1EDFECEC003919A9 /* Swift Custom DateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4BE98331EDFECEC003919A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Anthony Castor";
+				TargetAttributes = {
+					F4BE983A1EDFECEC003919A9 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 4R7SGYTCUE;
+						ProvisioningStyle = Automatic;
+					};
+					F4BE984E1EDFECEC003919A9 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 4R7SGYTCUE;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F4BE983A1EDFECEC003919A9;
+					};
+					F4BE98591EDFECEC003919A9 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 4R7SGYTCUE;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F4BE983A1EDFECEC003919A9;
+					};
+				};
+			};
+			buildConfigurationList = F4BE98361EDFECEC003919A9 /* Build configuration list for PBXProject "Swift Custom Date" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4BE98321EDFECEC003919A9;
+			productRefGroup = F4BE983C1EDFECEC003919A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4BE983A1EDFECEC003919A9 /* Swift Custom Date */,
+				F4BE984E1EDFECEC003919A9 /* Swift Custom DateTests */,
+				F4BE98591EDFECEC003919A9 /* Swift Custom DateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4BE98391EDFECEC003919A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4BE98491EDFECEC003919A9 /* LaunchScreen.storyboard in Resources */,
+				F4BE98461EDFECEC003919A9 /* Assets.xcassets in Resources */,
+				F4BE98441EDFECEC003919A9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4BE984D1EDFECEC003919A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4BE98581EDFECEC003919A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2913C558E111495E16C2BA99 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Swift Custom DateTests/Pods-Swift Custom DateTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2ED5FA2061A507ABC716FE35 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2EEA960596C2C21B863349FE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Swift Custom DateTests/Pods-Swift Custom DateTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3560F6707C2B041CB3DA642C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Swift Custom DateUITests/Pods-Swift Custom DateUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4700657664499567EF7E6095 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Swift Custom Date/Pods-Swift Custom Date-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D29B9ABFED7B2F47E71AA5C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8D53C684E2855626EAF261B9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Swift Custom Date/Pods-Swift Custom Date-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEBE553465834CA5D505DACD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D2FC9923136373EF7DC96F9D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Swift Custom DateUITests/Pods-Swift Custom DateUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4BE98371EDFECEC003919A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4BE98411EDFECEC003919A9 /* ViewController.swift in Sources */,
+				F4BE983F1EDFECEC003919A9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4BE984B1EDFECEC003919A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4BE98541EDFECEC003919A9 /* Swift_Custom_DateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4BE98561EDFECEC003919A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4BE985F1EDFECEC003919A9 /* Swift_Custom_DateUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4BE98511EDFECEC003919A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4BE983A1EDFECEC003919A9 /* Swift Custom Date */;
+			targetProxy = F4BE98501EDFECEC003919A9 /* PBXContainerItemProxy */;
+		};
+		F4BE985C1EDFECEC003919A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4BE983A1EDFECEC003919A9 /* Swift Custom Date */;
+			targetProxy = F4BE985B1EDFECEC003919A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4BE98421EDFECEC003919A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4BE98431EDFECEC003919A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F4BE98471EDFECEC003919A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4BE98481EDFECEC003919A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4BE98611EDFECEC003919A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4BE98621EDFECEC003919A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4BE98641EDFECEC003919A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 167693591373EDCF581B8FFC /* Pods-Swift Custom Date.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4R7SGYTCUE;
+				INFOPLIST_FILE = "Swift Custom Date/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jtac.Swift-Custom-Date";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F4BE98651EDFECEC003919A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95F1833E04A3B9C515C92BF8 /* Pods-Swift Custom Date.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4R7SGYTCUE;
+				INFOPLIST_FILE = "Swift Custom Date/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jtac.Swift-Custom-Date";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F4BE98671EDFECEC003919A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE9DC320E1BF2BB87E06E54F /* Pods-Swift Custom DateTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4R7SGYTCUE;
+				INFOPLIST_FILE = "Swift Custom DateTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jtac.Swift-Custom-DateTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift Custom Date.app/Swift Custom Date";
+			};
+			name = Debug;
+		};
+		F4BE98681EDFECEC003919A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB353D7B02F36F669352A060 /* Pods-Swift Custom DateTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4R7SGYTCUE;
+				INFOPLIST_FILE = "Swift Custom DateTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jtac.Swift-Custom-DateTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift Custom Date.app/Swift Custom Date";
+			};
+			name = Release;
+		};
+		F4BE986A1EDFECEC003919A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03F269F0ADF6514E48416E55 /* Pods-Swift Custom DateUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4R7SGYTCUE;
+				INFOPLIST_FILE = "Swift Custom DateUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jtac.Swift-Custom-DateUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Swift Custom Date";
+			};
+			name = Debug;
+		};
+		F4BE986B1EDFECEC003919A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DF58B8D851CE425A480F410 /* Pods-Swift Custom DateUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4R7SGYTCUE;
+				INFOPLIST_FILE = "Swift Custom DateUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jtac.Swift-Custom-DateUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Swift Custom Date";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4BE98361EDFECEC003919A9 /* Build configuration list for PBXProject "Swift Custom Date" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4BE98611EDFECEC003919A9 /* Debug */,
+				F4BE98621EDFECEC003919A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4BE98631EDFECEC003919A9 /* Build configuration list for PBXNativeTarget "Swift Custom Date" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4BE98641EDFECEC003919A9 /* Debug */,
+				F4BE98651EDFECEC003919A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4BE98661EDFECEC003919A9 /* Build configuration list for PBXNativeTarget "Swift Custom DateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4BE98671EDFECEC003919A9 /* Debug */,
+				F4BE98681EDFECEC003919A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4BE98691EDFECEC003919A9 /* Build configuration list for PBXNativeTarget "Swift Custom DateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4BE986A1EDFECEC003919A9 /* Debug */,
+				F4BE986B1EDFECEC003919A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4BE98331EDFECEC003919A9 /* Project object */;
+}
