@@ -20,14 +20,7 @@ class ViewController: UIViewController {
         menuView.commitMenuViewUpdate()
         calendarView.commitCalendarViewUpdate()
     }
-    
-    override func viewDidLayoutSubviews() {
-        super.viewDidLayoutSubviews()
-        
-        // Commit frames' updates
-        self.menuView.commitMenuViewUpdate()
-        self.calendarView.commitCalendarViewUpdate()
-    }
+
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Pods/CVCalendar/CVCalendar/CVCalendarView.swift"
+            timestampString = "518088553.31482"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "258"
+            endingLineNumber = "258"
+            landmarkName = "commitCalendarViewUpdate()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CVCalendar.CVCalendarView.commitCalendarViewUpdate () -&gt; ()"
+                  moduleName = "CVCalendar"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/MilkCommunications/Documents/MyDocumentsCAST/MyProject/Xcode%20Development/TestProject/Swift%20Custom%20Date/Pods/CVCalendar/CVCalendar/CVCalendarView.swift"
+                  timestampString = "518088553.432071"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "258"
+                  endingLineNumber = "258"
+                  offsetFromSymbolStart = "497">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CVCalendar.CVCalendarView.commitCalendarViewUpdate () -&gt; ()"
+                  moduleName = "CVCalendar"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/MilkCommunications/Documents/MyDocumentsCAST/MyProject/Xcode%20Development/TestProject/Swift%20Custom%20Date/Pods/CVCalendar/CVCalendar/CVCalendarView.swift"
+                  timestampString = "518088553.435429"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "258"
+                  endingLineNumber = "258"
+                  offsetFromSymbolStart = "551">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -607,6 +607,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4R7SGYTCUE;
 				INFOPLIST_FILE = "Swift Custom Date/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jtac.Swift-Custom-Date";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -621,6 +622,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4R7SGYTCUE;
 				INFOPLIST_FILE = "Swift Custom Date/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jtac.Swift-Custom-Date";
 				PRODUCT_NAME = "$(TARGET_NAME)";
